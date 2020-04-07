@@ -7,7 +7,6 @@ import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.inputmethod.CompletionInfo;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -16,18 +15,19 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import br.exam.R;
 
+/*******************************************************************************************************************
+ * 1.   Replacing characters in place:
+ *     Given an array of characters, write a method to replace all the spaces with “&32”.
+ *     You may assume that the array has sufficient slots at the end to hold the additional
+ *     characters, and that you are given the “true” length of the array. (Please perform this
+ *     operation in place with no other auxiliary structure).
+ *     Example:
+ *     Input: “User is not allowed      “, 19
+ *     Output: “User&32is&32not&32allowed”
+ *
+ */
+
 public class Question1 extends Fragment {
-    /*******************************************************************************************************************
-     * 1.   Replacing characters in place:
-     *     Given an array of characters, write a method to replace all the spaces with “&32”.
-     *     You may assume that the array has sufficient slots at the end to hold the additional
-     *     characters, and that you are given the “true” length of the array. (Please perform this
-     *     operation in place with no other auxiliary structure).
-     *     Example:
-     *     Input: “User is not allowed      “, 19
-     *     Output: “User&32is&32not&32allowed”
-     *
-     */
 
     public static Question1 newInstance() {
         Question1 fragment = new Question1();
@@ -40,7 +40,7 @@ public class Question1 extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
 
-        return inflater.inflate(R.layout.question1, container, false);
+        return inflater.inflate(R.layout.question1_fragment, container, false);
     }
 
     @Override

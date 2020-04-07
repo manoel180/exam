@@ -2,7 +2,9 @@
 <resources>
     <string name="app_name">ExamAndroid</string>
     <string name="inputText">Digite seu texto</string>
-    <string name="result">Resultado</string>
+    <string name="result">Resultado </string>
     <string name="btnProcess">Processar</string>
     <string name="sizeVector">Digite o tamanho do vetor</string>
+    <string name="inputText1">Digite seu texto 1</string>
+    <string name="inputText2">Digite seu texto 2</string>
 </resources>
