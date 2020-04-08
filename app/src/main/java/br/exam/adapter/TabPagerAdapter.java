@@ -3,9 +3,9 @@ package br.exam.adapter;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
-import br.exam.questions.Question1;
-import br.exam.questions.Question2;
-import br.exam.questions.Question3;
+import br.exam.questions.fragments.Question1;
+import br.exam.questions.fragments.Question2;
+import br.exam.questions.fragments.Question3;
 
 public class TabPagerAdapter extends FragmentStateAdapter {
 

@@ -1,4 +1,4 @@
-package br.exam.questions;
+package br.exam.questions.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,11 +8,15 @@ import androidx.fragment.app.Fragment;
 import br.exam.R;
 
 /**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * to handle interaction events.
- * Use the {@link Question3#newInstance} factory method to
- * create an instance of this fragment.
+ * 3. Check words with typos:
+ * There are three types of typos that can be performed on strings: insert a character,
+ * remove a character, or replace a character. Given two strings, write a function to
+ * check if they are one typo (or zero typos) away.
+ * Examples:
+ * pale, ple ­> true
+ * pales, pale ­> true
+ * pale, bale ­> true
+ * pale, bake ­> false
  */
 public class Question3 extends Fragment {
 
@@ -26,7 +30,6 @@ public class Question3 extends Fragment {
      *
      * @return A new instance of fragment Question3.
      */
-    // TODO: Rename and change types and number of parameters
     public static Question3 newInstance() {
         Question3 fragment = new Question3();
         return fragment;
