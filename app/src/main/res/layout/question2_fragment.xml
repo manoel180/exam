@@ -37,7 +37,6 @@
             android:id="@+id/txtResult"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text=""
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/txtViewResult"
@@ -45,7 +44,7 @@
     <Button
             android:text="@string/btnProcess"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/button"
+            android:layout_height="wrap_content" android:id="@+id/btnProcess"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/edtInput2"
     />

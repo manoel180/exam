@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">ExamAndroid</string>
     <string name="inputText">Input text here</string>
-    <string name="result">Result </string>
+    <string name="result">Result</string>
     <string name="btnProcess">Process</string>
 
     <!-- TODO: Remove or change this placeholder text -->

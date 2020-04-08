@@ -1,4 +1,4 @@
-package br.exam.questions;
+package br.exam.questions.fragments;
 
 import android.os.Bundle;
 import android.text.Editable;
