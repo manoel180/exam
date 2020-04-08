@@ -3,9 +3,6 @@
     <string name="inputText">Input text here</string>
     <string name="result">Result</string>
     <string name="btnProcess">Process</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="sizeVector">Input size vector</string>
     <string name="inputText1">Input text 1 here</string>
     <string name="inputText2">Input text 2 here</string>

@@ -30,7 +30,6 @@ public class Question3 extends Fragment {
      *
      * @return A new instance of fragment Question3.
      */
-    // TODO: Rename and change types and number of parameters
     public static Question3 newInstance() {
         Question3 fragment = new Question3();
         return fragment;
